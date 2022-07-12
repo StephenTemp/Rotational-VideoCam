@@ -1,6 +1,12 @@
 # Rotational-VideoCam
 Xcode project to simultaneously record video and gyroscopic data
 
+### Folder Contents
+**camera-delay-trials**: evaluations of iPhone frame processing delay
+
+
+**example-output***: video and gyro outputs of existing app version (both android and iPhone) named with the following notation: {**POSTER_NAME**}_{**ANDROID** or **IPHONE**}_{**ID**}.mov
+
 ### App Instructions 
 The app is simple: press the **red square** in the lefthand corner of the screen to begin recording visual and rotational information (accessed through the device gyroscope) and tap again to finish. Save both the video and CSV file to a memorable location. The CSV file also contains the _timestamps_ of the rotational information when recorded. 
 
